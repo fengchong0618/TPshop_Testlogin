@@ -8,6 +8,7 @@ def init_driver():
     desired_caps['deviceName'] = '192.168.56.101:5555'
     desired_caps['appPackage'] = 'com.tpshop.malls'
     desired_caps['appActivity'] = '.SPMainActivity'
+    desired_caps['automationName'] = 'Uiautomator2'
 
 
 
